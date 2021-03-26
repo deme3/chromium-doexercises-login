@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>DoExercises Login Options</title>
+    <style>
+        input {
+            width: 100%;
+            outline: none;
+            border: 1px solid #AAA;
+            border-radius: 6px;
+            box-sizing: border-box;
+            margin: 4px 0;
+            padding: 8px;
+        }
+
+        button {
+            width: 100%;
+            box-sizing: border-box;
+            background: #057fd7;
+            color: white;
+            border: 1px solid #32526e;
+            border-radius: 6px;
+            outline: none;
+            margin: 4px 0;
+            padding: 8px;
+        }
+
+        button:hover {
+            cursor: pointer;
+            background: #0577c9;
+        }
+
+        button:active {
+            background: #056cb6;
+        }
+
+        button#reset {
+            background: #B10B25;
+            border-color: #a00a20;
+        }
+
+        button#reset:hover {
+            background: #a00a20;
+        }
+
+        button#reset:active {
+            background: #91091e;
+        }
+    </style>
+</head>
+<body>
+    <h1>Preferenze<span id="status"></span></h1>
+    <input type="text" id="username" placeholder="Username &ldquo;nome.cognome&rdquo;" />
+    <input type="text" id="student_id" placeholder="Matricola" />
+    <input type="password" id="password" placeholder="DoExercises Password" />
+    <p><b>N.B.:</b> la password non viene crittografata</p>
+    <button id="save">Salva</button>
+    <button id="reset">Cancella tutto</button>
+    <script src="options.js"></script>
+</body>
+</html>

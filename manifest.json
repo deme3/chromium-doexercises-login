@@ -1,0 +1,23 @@
+{
+    "name": "DoExercises Login",
+    "version": "1.0.0.0",
+    "manifest_version": 2,
+    "description": "A Chromium extension to keep your login token at hand.",
+    "icons": {
+        "128": "icons/unitn128x128v2.png"
+    },
+    "permissions": ["storage"],
+    "options_ui": {
+        "page": "options.html",
+        "open_in_tab": false
+    },
+    "background": {
+        "service_worker": "storage_worker.js"
+    },
+    "content_scripts": [
+        {
+          "matches": ["http://datascience.maths.unitn.it/*"],
+          "js": ["content-scripts/content.js"]
+        }
+    ]
+}
