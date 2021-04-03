@@ -1,4 +1,6 @@
 # chromium-doexercises-login
+[![](https://storage.googleapis.com/chrome-gcs-uploader.appspot.com/image/WlD8wC6g8khYWPJUsQceQkhXSlv1/UV4C4ybeBTsZt43U4xis.png)](https://chrome.google.com/webstore/detail/doexercises-login/gafbkkkiijpljehbhadhegaiblfbkbdd) [<img src="https://developer.microsoft.com/store/badges/images/English_get-it-from-MS.png" height="58">](https://microsoftedge.microsoft.com/addons/detail/doexercises-login/celbiefffdihikifackafggknchnlaoi) 
+
 L'autocomplete è cursed su DoExercises, quindi ad UniTN ce lo facciamo da soli.
 
 Adatto solo a browser Chromium, sviluppato e testato su Microsoft Edge.
