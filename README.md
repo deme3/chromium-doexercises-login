@@ -6,7 +6,13 @@ L'autocomplete è cursed su DoExercises, quindi ad UniTN ce lo facciamo da soli.
 Adatto solo a browser Chromium, sviluppato e testato su Microsoft Edge.
 
 ## Installazione
-Accedere alle impostazioni delle estensioni del browser, attivare la modalità Sviluppatore e trascinare la cartella del repository intera. Per motivi di sicurezza i CRX da origini sconosciute non sono installabili, motivo per cui non è disponibile una versione compressa.
+Da web store
+
+* [Chrome Web Store](https://chrome.google.com/webstore/detail/doexercises-login/gafbkkkiijpljehbhadhegaiblfbkbdd)
+* [Microsoft Store](https://microsoftedge.microsoft.com/addons/detail/doexercises-login/celbiefffdihikifackafggknchnlaoi)
+
+## Installazione manuale
+Accedere alle impostazioni delle estensioni del browser, attivare la modalità Sviluppatore e trascinare la cartella del repository intera.
 
 ## Configurazione
 Le credenziali vanno inserite nella finestra di dialogo dedicata alle impostazioni dell'estensione.
